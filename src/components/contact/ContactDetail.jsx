@@ -34,7 +34,7 @@ const ContactDetail = () => {
                     <MdAddCall size={25} />
                     <h1 className="text-lg font-semibold">Call us</h1>
                 </div>
-                <p className="font-medium text-left">Mon - Sat from 10am to 5pm</p>
+                <p className="font-medium text-left">Mon - Sat from 10am to 6pm</p>
                 <p className="font-semibold text-left">(+91) 95920 02882</p>
             </div>
             <div className="flex flex-col gap-[2px] p-3 text-sm">
@@ -42,7 +42,7 @@ const ContactDetail = () => {
                     <FaWhatsapp size={25} />
                     <h1 className="text-lg font-semibold">WhatsApp us</h1>
                 </div>
-                <p className="font-medium text-left">Mon - Sat from 8am to 5pm</p>
+                <p className="font-medium text-left">Mon - Sat from 9am to 6pm</p>
                 <p className="font-semibold text-left">(+91) 95920 02882</p>
             </div>
         </div>

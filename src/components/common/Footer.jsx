@@ -38,6 +38,15 @@ const Footer = () => {
             <Link to={"https://www.instagram.com/relief844physiotherpy/?igsh=ZWJ1eHpiZmlycnlj"} target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-600"><FaInstagram size={24} /></Link>
             <Link to={"https://g.co/kgs/n2VB7xF"} className="text-white hover:text-red-500" target="_blank" rel="noopener noreferrer"><FaGoogle size={24} /></Link>
           </div>
+          <div className='mt-4'>
+          <Link
+            to={"/contact-us"}
+            className="animate-bounce focus:animate-none hover:animate-none inline-flex text-md font-medium bg-white mt-3 px-4 py-2 rounded-lg tracking-wide text-blue-900"
+          >
+            <span className="ml-2">Book your appoitment</span>
+          </Link>
+          </div>
+
         </div>
         <div className="w-full md:w-1/4 mb-6">
           <p>Restore your strength, ease your pain, and reclaim your mobility with personalized care at our physiotherapy clinic. We're dedicated to helping you move better and live healthier, pain-free.</p>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { IoPeopleSharp } from "react-icons/io5";
 import { FaTools } from "react-icons/fa";
 import { MdOutlinePersonalInjury } from "react-icons/md";
@@ -63,18 +64,18 @@ const RehablisationSection = () => {
                     </h2>
                 </div>
                 <div className="">
-                    <button className="sm:w-fit w-full group px-3.5 py-2 bg-indigo-50 hover:bg-indigo-100 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] transition-all duration-700 ease-in-out flex items-center">
+                    <Link to={"/contact-us"} className="sm:w-fit w-full group px-3.5 py-2 bg-indigo-50 hover:bg-indigo-100 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] transition-all duration-700 ease-in-out flex items-center">
                         <span className="px-1.5 text-indigo-600 text-sm font-medium leading-6 group-hover:-translate-x-0.5 transition-all duration-700 ease-in-out">
                             Book treatment
                         </span>
                         <svg className="ml-1 group-hover:translate-x-0.5 transition-all duration-700 ease-in-out" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <path d="M6.75265 4.49658L11.2528 8.99677L6.75 13.4996" stroke="#4F46E5" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
-                    </button>
+                    </Link>
                 </div>
             </div>
             <div>
-                <div className="container mx-auto px-1">
+                <div className="container mx-auto px-2 sm:px-4">
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
                         {featuresData.map((feature, index) => (
                             <FeaturesCard key={index} icon={feature.icon} title={feature.title} details={feature.details} />

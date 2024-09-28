@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import toast from 'react-hot-toast';
+import emailjs from '@emailjs/browser';
 
 const ContactUsForm = () => {
     const [formData, setFormData] = useState({
@@ -32,6 +33,18 @@ const ContactUsForm = () => {
         return newErrors;
     };
 
+    const sendMessage = async (data) => {
+        const { name, email, phonenumber, message } = data;
+        const templateParams = {
+            from_name: name,
+            from_email: email,
+            phone_number: phonenumber,
+            message: message,
+        };
+
+        return await emailjs.send('service_ut4xigf', 'template_r9rgmzi', templateParams, 'ZF8zDp8U6OGvp-azQ');
+    };
+
     const submitContactForm = async (e) => {
         e.preventDefault();
         const newErrors = validateForm();
@@ -46,7 +59,7 @@ const ContactUsForm = () => {
 
         try {
             loadingToastId = toast.loading('Submitting...');
-            const res = await sendMessage(formData);
+            await sendMessage(formData);
             toast.success('Message sent successfully!');
             setFormData({
                 name: '',
@@ -56,6 +69,7 @@ const ContactUsForm = () => {
             });
         } catch (error) {
             console.error('Error submitting contact form:', error.message);
+            toast.error('Failed to send message. Please try again later.');
         } finally {
             setLoading(false);
             toast.dismiss(loadingToastId);
@@ -92,15 +106,15 @@ const ContactUsForm = () => {
             </div>
             <div className='flex flex-col gap-2'>
                 <label htmlFor='phonenumber' className=' text-left'>Phone Number</label>
-                    <input
-                        type="tel"
-                        name="phonenumber"
-                        id="phonenumber"
-                        placeholder="+91 1234567890"
-                        className="border border-gray-200 px-2 py-2 rounded-md focus:outline-none"
-                        value={formData.phonenumber}
-                        onChange={handleInputChange}
-                    />
+                <input
+                    type="tel"
+                    name="phonenumber"
+                    id="phonenumber"
+                    placeholder="+91 1234567890"
+                    className="border border-gray-200 px-2 py-2 rounded-md focus:outline-none"
+                    value={formData.phonenumber}
+                    onChange={handleInputChange}
+                />
                 {errors.phonenumber && <span className="-mt-1 text-[12px] text-red-500">{errors.phonenumber}</span>}
             </div>
             <div className='flex flex-col gap-2'>
