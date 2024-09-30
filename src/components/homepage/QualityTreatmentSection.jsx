@@ -9,10 +9,10 @@ const QualityTreatmentSection = () => {
                 {/* Text Column */}
                 <div className="lg:w-1/2 w-full mb-10 lg:mb-0">
                     <p className="text-gray-400 text-lg mb-4">/ Quality Treatment</p>
-                    <h2 className="text-indigo-900 text-4xl lg:text-5xl font-bold leading-snug mb-6">
+                    <h2 className="text-indigo-900 text-4xl lg:text-5xl font-bold leading-snug mb-6 text-start">
                         We Proudly Give <br /> Quality Treatment
                     </h2>
-                    <p className="text-gray-600 text-lg leading-relaxed mb-6">
+                    <p className="text-gray-600 text-lg leading-relaxed mb-6 text-start">
                         We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy services are designed to provide prompt and effective care to help you manage.
                     </p>
                     <ul className="space-y-4 mb-6">
@@ -35,7 +35,7 @@ const QualityTreatmentSection = () => {
                             We Understand That Injuries
                         </li>
                     </ul>
-                    <Link to={"/contact-us"} className="sm:w-fit w-full group px-3.5 py-2 bg-indigo-50 hover:bg-indigo-100 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] transition-all duration-700 ease-in-out flex items-center">
+                    <Link to={"/contact-us"} className="w-fit group px-3.5 py-2 bg-indigo-50 hover:bg-indigo-100 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] transition-all duration-700 ease-in-out flex items-center">
                         <span className="px-1.5 text-indigo-600 text-sm font-medium leading-6 group-hover:-translate-x-0.5 transition-all duration-700 ease-in-out">
                             Make an Appoitment
                         </span>
