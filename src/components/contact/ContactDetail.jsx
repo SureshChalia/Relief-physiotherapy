@@ -15,7 +15,7 @@ const ContactDetail = () => {
                 </div>
                 <p className="font-medium text-left">Our friendly team is here to help.</p>
 
-                <p className="font-semibold text-left">example@gmail.com</p>
+                <p className="font-semibold text-left">contact@reliefphysio.in</p>
 
             </div>
             <div className="flex flex-col gap-[2px] p-3 text-sm">

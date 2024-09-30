@@ -13,7 +13,7 @@ const Footer = () => {
             <li>Mori gate chowk, Circular Road,</li>
             <li>Near Idea Store</li>
             <li>Faridkot, Punjab 151203</li>
-            <li>Email: example@gmail.com</li>
+            <li>Email: contact@reliefphysio.in</li>
             <li>Phone: (+91) 95920 02882</li>
           </ul>
         </div>
@@ -54,7 +54,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className="text-center mt-8">
-        <p className="text-white">© 2024 Relief physio. All rights reserved.</p>
+        <p className="text-white">Relief Physiotherapy & Rehabilitation Clinic, Faridkot</p>
       </div>
     </footer>
   );
