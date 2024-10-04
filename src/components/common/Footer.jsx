@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="w-full md:w-1/4 mb-6">
           <h4 className="text-xl font-bold mb-4">Contact Us</h4>
           <ul>
-            <li>Mori gate chowk, Circular Road,</li>
+            <li>Mori Gate Chowk, Circular Road,</li>
             <li>Near Idea Store</li>
             <li>Faridkot, Punjab 151203</li>
             <li>Email: contact@reliefphysio.in</li>
@@ -49,7 +49,7 @@ const Footer = () => {
 
         </div>
         <div className="w-full md:w-1/4 mb-6">
-          <p>Restore your strength, ease your pain, and reclaim your mobility with personalized care at our physiotherapy clinic. We're dedicated to helping you move better and live healthier, pain-free.</p>
+        <p>Restore your strength, reduce pain, and reclaim your mobility with personalized care at our exercise physiology clinic. We're dedicated to helping you move better, live healthier, and achieve a pain-free, active lifestyle.</p>
         </div>
       </div>
       <hr />

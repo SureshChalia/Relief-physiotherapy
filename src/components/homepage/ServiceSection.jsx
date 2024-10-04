@@ -7,71 +7,61 @@ import elbow from "../../assets/elbow.jpg"
 import surgical from "../../assets/surgical.jpeg"
 import facial from "../../assets/facial.jpg"
 import paralysis from "../../assets/paralysis.jpg"
-import hand from "../../assets/hand.jpg"
-import belly from "../../assets/belly.jpg"
+import chronic from "../../assets/chronic.jpeg"
+import exercise from "../../assets/b2.jpg"
+import health from "../../assets/b1.jpg"
+
 
 const data = [
   {
-    title: "Lumbago Rehabilitation",
-    detail: "Effective treatment for back pain focusing on strengthening and flexibility to alleviate discomfort and enhance mobility.",
+    title: "Fitness Assessments",
+    detail: "Evaluating cardiovascular health, muscle strength, flexibility, and body composition.",
     backgroundImage: back,
   },
   {
-    title: "Cervical Pain Management",
-    detail: "Specialized techniques to address neck pain, aimed at relieving tension and restoring normal range of motion",
-    backgroundImage: curvical,
+    title: "Customized Exercise Plans",
+    detail: "Creating personalized workout programs based on fitness goals and health status.",
+    backgroundImage: exercise,
   },
   {
-    title: "Shoulder Stability Therapy",
-    detail: "Targeted exercises and modalities designed to alleviate shoulder pain and improve joint function and stability.",
+    title: "Injury Rehabilitation",
+    detail: "Designing exercises to aid in recovery from injuries or surgery.",
     backgroundImage: shoulder,
   },
   {
-    title: "Elbow Rehabilitation Program",
-    detail: "Comprehensive treatment for elbow pain that includes strength training and mobility exercises to promote healing.",
-    backgroundImage: elbow,
+    title: "Chronic Disease Management",
+    detail: "Exercise programs for conditions like diabetes, heart disease, and obesity.",
+    backgroundImage: chronic,
   },
   {
-    title: "Post-Surgical Rehabilitation",
-    detail: "Tailored therapy following surgery to facilitate recovery, restore function, and minimize complications during the healing process.",
+    title: "Sports Performance Enhancement",
+    detail: "Training to improve athletic performance and reduce injury risk.",
     backgroundImage: surgical,
   },
   {
-    title: "Facial Pain Relief Protocol",
-    detail: "Comprehensive approaches to manage facial pain, integrating massage, exercises, and modalities for pain reduction.",
-    backgroundImage: facial,
+    title: "Health Education:",
+    detail: "Guidance on exercise techniques, nutrition, and lifestyle changes.",
+    backgroundImage: health,
   },
   {
-    title: "Neurological Recovery Therapy",
-    detail: "Specialized treatment for paralysis, focusing on regaining movement and functionality through targeted exercises and support.",
+    title: "Monitoring And Progress Tracking",
+    detail: "Regular check-ins to assess progress and adjust exercise plans.",
     backgroundImage: paralysis,
-  },
-  {
-    title: "Manual Therapy for Hand Pain",
-    detail: "Hands-on techniques aimed at relieving pain and improving function in the hands, promoting recovery from injuries.",
-    backgroundImage: hand,
-  },
-  {
-    title: "Abdominal Rehabilitation Program",
-    detail: "Treatment strategies focused on alleviating belly pain and strengthening core muscles to enhance overall stability and comfort.",
-    backgroundImage: belly,
-  },
+  }
 ];
 
 const ServiceSection = () => {
   return (
     <div className="container max-w-7xl w-11/12 mx-auto">
-      <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center p-4">
+      <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center p-4 gap-5">
         <div className="flex-1 mb-4 lg:mb-0">
           <p className="text-gray-400 text-base font-normal leading-relaxed">/ Our Services</p>
-          <h2 className="text-indigo-900 text-4xl font-bold font-manrope leading-normal text-start">
+          <h2 className="text-indigo-900 text-xl sm:text-4xl font-bold font-manrope leading-normal text-start">
             What we offer
           </h2>
-          <p className="text-base text-body-color dark:text-dark-6">
-            We offer top-quality physiotherapy services tailored to your needs.
-          </p>
-          <p className="text-base text-body-color dark:text-dark-6">
-            Our expert therapists use advanced techniques to treat pain, improve mobility.
+          <p className="text-base text-body-color text-gray-500 mt-2">
+            Our certified exercise physiologists use evidence-based techniques to enhance physical function, manage chronic conditions, and promote overall health.
+            Whether you're recovering from injury or working toward specific fitness goals, we design personalized exercise programs to help you achieve lasting results.
           </p>
         </div>
         <div className="">
@@ -85,23 +75,29 @@ const ServiceSection = () => {
           </Link>
         </div>
       </div>
-      <div className=" px-2 py-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div className="px-2 py-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {data.map((item, index) => (
           <div
             key={index}
             className="bg-white rounded-lg shadow-lg overflow-hidden"
           >
             <div
-              className="h-48"
-              style={{ backgroundImage: `url(${item.backgroundImage})` }}
+              className="h-48 w-full"
+              style={{
+                backgroundImage: `url(${item.backgroundImage})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat'
+              }}
             ></div>
             <div className="p-4">
-              <h2 className="font-bold mb-2 text-2xl text-blue-900">{item.title}</h2>
+              <h2 className="font-bold mb-2 text-xl sm:text-2xl text-blue-900">{item.title}</h2>
               <p className="text-gray-400">{item.detail}</p>
             </div>
           </div>
         ))}
       </div>
+
     </div>
   );
 };

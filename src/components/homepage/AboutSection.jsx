@@ -12,24 +12,24 @@ const AboutSection = () => {
                             <div className="flex-col items-start gap-1 flex">
                                 <h6 className="text-gray-400 text-base font-normal leading-relaxed text-start">/ Who we are</h6>
                                 <div className="w-full flex-col justify-start lg:items-start items-center gap-2 flex">
-                                    <h2 className="text-indigo-900 text-4xl font-bold font-manrope text-start">
-                                        We are the best for physiotherapy
+                                    <h2 className="text-indigo-900 text-xl sm:text-4xl font-bold font-manrope text-start">
+                                    We are the Experts in Exercise Physiology
                                     </h2>
                                     <p className="text-gray-500 text-base font-normal leading-relaxed text-start">
-                                        We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy services are designed to provide prompt and effective care to help you manage pain, prevent further injury, and start your recovery process as quickly as possible
+                                        We understand that physical health and fitness are vital to leading a healthy life. Our team of certified Exercise Physiologists specializes in designing tailored exercise programs that promote recovery, improve mobility, and enhance overall well-being. Whether you're managing chronic conditions, recovering from injury, or looking to optimize your physical performance, we provide expert guidance to help you achieve your goals through safe and effective exercise interventions.
                                     </p>
                                 </div>
                             </div>
                             <div className="w-full flex-col justify-center items-start gap-6 flex cursor-pointer">
                                 <div className="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
                                     <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                        <h4 className="text-indigo-900 text-2xl font-bold font-manrope leading-9">5+ Years</h4>
+                                        <h4 className="text-indigo-900 text-xl sm:text-2xl font-bold font-manrope leading-9">5+ Years</h4>
                                         <p className="text-gray-500 text-base font-normal leading-relaxed">
-                                            Expert therapist
+                                            Expert Physiologist
                                         </p>
                                     </div>
                                     <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                        <h4 className="text-indigo-900 text-2xl font-bold font-manrope leading-9">Advanced Techniques</h4>
+                                        <h4 className="text-indigo-900 text-xl sm:text-2xl font-bold font-manrope leading-9">Advanced Techniques</h4>
                                         <p className="text-gray-500 text-base font-normal leading-relaxed">
                                             Used to enhance treatment
                                         </p>
@@ -37,13 +37,13 @@ const AboutSection = () => {
                                 </div>
                                 <div className="w-full h-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
                                     <div className="w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                        <h4 className="text-indigo-900 text-2xl font-bold font-manrope leading-9">Personalized Care</h4>
+                                        <h4 className="text-indigo-900 text-xl sm:text-2xl font-bold font-manrope leading-9">Personalized Care</h4>
                                         <p className="text-gray-500 text-base font-normal leading-relaxed">
                                             Tailored support for individuals
                                         </p>
                                     </div>
                                     <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                                        <h4 className="text-indigo-900 text-2xl font-bold font-manrope leading-9">99% Happy Clients</h4>
+                                        <h4 className="text-indigo-900 text-xl sm:text-2xl font-bold font-manrope leading-9">99% Happy Clients</h4>
                                         <p className="text-gray-500 text-base font-normal leading-relaxed">
                                             Mirrors our Focus on Client Satisfaction.
                                         </p>

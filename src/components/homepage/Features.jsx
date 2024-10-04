@@ -44,7 +44,7 @@ const Features = () => {
     const features = [
         {
             icon: <TbPhysotherapist  />,
-            title: 'Expert Therapists',
+            title: 'Expert Physiologist',
             description: 'Easy treatment with expert'
         },
         {

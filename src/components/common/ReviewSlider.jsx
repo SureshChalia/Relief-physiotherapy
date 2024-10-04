@@ -135,10 +135,10 @@ const ReviewSlider = () => {
                 {/* Left Section */}
                 <div className="w-full md:w-1/2 text-left">
                     <h4 className="text-sm text-gray-400">/ Patient Testimonial</h4>
-                    <h2 className="text-3xl md:text-4xl font-bold mt-4 text-indigo-900 mb-4">
+                    <h2 className="text-xl sm:text-4xl font-bold mt-4 text-indigo-900 mb-4">
                         Our Patient Reviews
                     </h2>
-                    <p className='text-gray-400'>At Physiocare, we pride ourselves on providing exceptional physiotherapy services that deliver real results. But don't just take our word for it.</p>
+                    <p className='text-gray-400'>At Relief Physiotherapy & Rehabilitation Clinic, we pride ourselves on providing exceptional exercise physiology services that deliver real, measurable results. But don't just take our word for it — our clients' success stories speak for themselves</p>
                 </div>
 
                 {/* Right Section - Review Card */}

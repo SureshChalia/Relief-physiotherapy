@@ -9,26 +9,26 @@ const QualityTreatmentSection = () => {
                 {/* Text Column */}
                 <div className="lg:w-1/2 w-full mb-10 lg:mb-0">
                     <p className="text-gray-400 text-lg mb-4">/ Quality Treatment</p>
-                    <h2 className="text-indigo-900 text-4xl lg:text-5xl font-bold leading-snug mb-6 text-start">
+                    <h2 className="text-indigo-900 text-xl sm:text-4xl lg:text-5xl font-bold leading-snug mb-6 text-start">
                         We Proudly Give <br /> Quality Treatment
                     </h2>
-                    <p className="text-gray-600 text-lg leading-relaxed mb-6 text-start">
-                        We understand that injuries and acute pain can happen unexpectedly. Our emergency physiotherapy services are designed to provide prompt and effective care to help you manage.
+                    <p className="text-gray-500 text-lg leading-relaxed mb-6 text-start">
+                    We understand that injuries and physical setbacks can happen unexpectedly. Our emergency exercise physiology services are designed to provide prompt and effective care, helping you manage pain, restore function, and prevent further complications.
                     </p>
                     <ul className="space-y-4 mb-6">
-                        <li className="flex items-center text-gray-700">
+                        <li className="flex items-center text-gray-500">
                             <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7"></path>
                             </svg>
                             We Understand That Injuries
                         </li>
-                        <li className="flex items-center text-gray-700">
+                        <li className="flex items-center text-gray-500">
                             <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7"></path>
                             </svg>
                             Can Happen Unexpectedly, Our Emergency
                         </li>
-                        <li className="flex items-center text-gray-700">
+                        <li className="flex items-center text-gray-500">
                             <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7"></path>
                             </svg>
