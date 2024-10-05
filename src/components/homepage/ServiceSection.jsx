@@ -1,11 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import curvical from "../../assets/curvical.jpg"
-import back from "../../assets/back2.jpg"
+import back from "../../assets/fitness.jpg"
 import shoulder from "../../assets/shoulder.jpg"
-import elbow from "../../assets/elbow.jpg"
-import surgical from "../../assets/surgical.jpeg"
-import facial from "../../assets/facial.jpg"
+import surgical from "../../assets/sports.jpg"
 import paralysis from "../../assets/paralysis.jpg"
 import chronic from "../../assets/chronic.jpeg"
 import exercise from "../../assets/b2.jpg"

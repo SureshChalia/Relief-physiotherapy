@@ -17,10 +17,10 @@ const AboutUs = () => {
                                 <h6 className="text-gray-400 text-base font-normal text-start">About Us</h6>
                                 <div className="w-full flex-col justify-start lg:items-start items-center gap-2 flex">
                                     <h2 className="text-indigo-900 text-xl sm:text-4xl font-bold font-manrope text-start">
-                                    We are the experts in exercise physiology.
+                                        We are the experts in exercise physiology.
                                     </h2>
                                     <p className="text-gray-500 text-base font-normal text-start">
-                                        At Relief Exercise Physiology & Rehabilitation Clinic, we specialize in helping individuals overcome pain, improve mobility, and regain strength through personalized exercise programs and advanced rehabilitation techniques. With a team of experienced and certified exercise physiologists, we are dedicated to creating tailored exercise plans that address a wide range of physical conditions, including chronic pain, joint injuries, post-surgical recovery, and long-term health management.
+                                        At relief physio and rehablitation clinic, we speacialize in helping individual to overcome the pain, improve mobility and regain strength through personalized exercise programs and advanced rehabilitation techniques. We are dedicating to creating tailored exercise plans that address a wide range of physical conditions including acute pain, chronic pain,fitness program and lifestyle coaching, cardiovascular health, weight management and increase strength, the science of movement and exercise for a healthier life, chronic disease management and prevention.
                                     </p>
                                     <p className="text-gray-500 text-base font-normal text-start">Our approach combines evidence-based exercise prescriptions, state-of-the-art equipment, and patient education to promote sustainable recovery and long-term well-being. We don’t just focus on managing symptoms—we aim to identify and address the root causes of physical limitations to help our clients achieve optimal health and active lifestyles.</p>
                                     <p className="text-gray-500 text-base font-normal text-start">Whether you're an athlete recovering from an injury, managing a chronic condition, or looking to enhance your physical health, we are here to guide and support you. At Relief Exercise Physiology & Rehabilitation Clinic, your health and recovery are our top priority. Let us help you move better, feel stronger, and live your best life.</p>
@@ -31,7 +31,7 @@ const AboutUs = () => {
                                     <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                                         <h4 className="text-indigo-900 text-xl sm:text-2xl font-bold font-manrope leading-9">5+ Years</h4>
                                         <p className="text-gray-500 text-base font-normal leading-relaxed">
-                                            Expert Physiologist
+                                            Expert Exercise Physiologist
                                         </p>
                                     </div>
                                     <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">

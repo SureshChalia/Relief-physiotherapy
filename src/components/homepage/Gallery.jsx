@@ -1,5 +1,5 @@
 import React from 'react'
-import curvical from "../../assets/curvical.jpg"
+import curvical from "../../assets/sports.jpg"
 import back from "../../assets/back2.jpg"
 import shoulder from "../../assets/b1.jpg"
 import elbow from "../../assets/b2.jpg"

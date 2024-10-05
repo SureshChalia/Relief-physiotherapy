@@ -1,38 +1,3 @@
-// import React from 'react'
-// import { TbPhysotherapist } from "react-icons/tb";
-// import { MdHomeRepairService } from "react-icons/md";
-// import { FaClipboardList } from "react-icons/fa";
-
-// const Features = () => {
-//     return (
-//         <div className='bg-blue-900 rounded-md p-4 text-white flex justify-between items-center '>
-//             <div className='flex gap-1 pl-2'>
-//                 <div className='rounded-md p-2 border'><TbPhysotherapist className='text-6xl' /></div>
-//                 <div className='text-3xl'>
-//                     Expert Therapists
-//                     <p className='text-lg'>Easy treatment with expert</p>
-//                 </div>
-//             </div>
-//             <div className='flex border-l-2 gap-1 pl-6'>
-//                 <div className='rounded-md p-2 border'><MdHomeRepairService className='text-6xl' /></div>
-//                 <div className='text-3xl'>
-//                     Home Visit
-//                     <p className='text-lg'>Personalized care at your doorstep</p>
-//                 </div>
-//             </div>
-//             <div className='flex border-l-2 gap-1 pl-6'>
-//                 <div className='rounded-md p-2 border'><FaClipboardList className='text-6xl' /></div>
-//                 <div className='text-3xl'>
-//                 Free Consultant
-//                     <p className='text-lg'>Advice with Experts</p>
-//                 </div>
-//             </div>
-//         </div>
-//     )
-// }
-
-// export default Features
-
 import React, { useState, useEffect } from 'react';
 import { TbPhysotherapist } from "react-icons/tb";
 import { MdHomeRepairService } from "react-icons/md";
@@ -44,7 +9,7 @@ const Features = () => {
     const features = [
         {
             icon: <TbPhysotherapist  />,
-            title: 'Expert Physiologist',
+            title: 'Expert Exercise Physiologist',
             description: 'Easy treatment with expert'
         },
         {

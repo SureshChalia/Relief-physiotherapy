@@ -26,7 +26,7 @@ const ContactDetail = () => {
                 <p className="font-medium text-left">Come and say hello at our clinic.</p>
                 <p className="font-semibold text-left">
                     Mori Gate Chowk, Circular Road,
-                    Near Idea Store
+                    Near Adhaar Shopping Mall
                     Faridkot, Punjab 151203</p>
             </div>
             <div className="flex flex-col gap-[2px] p-3 text-sm">
