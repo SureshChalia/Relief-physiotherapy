@@ -10,13 +10,13 @@ const AboutSection = () => {
                     <div className="w-full flex-col justify-center items-start gap-10 inline-flex">
                         <div className="w-full flex-col justify-center items-start gap-8 flex">
                             <div className="flex-col items-start gap-1 flex">
-                                <h6 className="text-gray-400 text-base font-normal leading-relaxed text-start">/ Who we are</h6>
+                                <h6 className="text-gray-400 text-base font-normal leading-relaxed text-start">Who we are</h6>
                                 <div className="w-full flex-col justify-start lg:items-start items-center gap-2 flex">
                                     <h2 className="text-indigo-900 text-xl sm:text-4xl font-bold font-manrope text-start">
                                     We are the Experts in Exercise Physiology
                                     </h2>
                                     <p className="text-gray-500 text-base font-normal leading-relaxed text-start">
-                                        We understand that physical health and fitness are vital to leading a healthy life. Our team of certified Exercise Physiologists specializes in designing tailored exercise programs that promote recovery, improve mobility, and enhance overall well-being. Whether you're managing chronic conditions, recovering from injury, or looking to optimize your physical performance, we provide expert guidance to help you achieve your goals through safe and effective exercise interventions.
+                                        We understand that physical health and fitness are vital to leading a healthy life. Our Exercise Physiologists specializes in designing tailored exercise programs that promote recovery, improve mobility, and enhance overall well-being. Whether you're managing chronic conditions, recovering from injury, or looking to optimize your physical performance, we provide expert guidance to help you achieve your goals through safe and effective exercise interventions.
                                     </p>
                                 </div>
                             </div>

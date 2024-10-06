@@ -58,7 +58,7 @@ const RehablisationSection = () => {
         <div className='max-w-7xl w-11/12 mx-auto flex flex-col gap-5'>
             <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center p-4">
                 <div className="flex-1 mb-4 lg:mb-0">
-                    <p className="text-gray-400 text-base font-normal leading-relaxed">/ Rehabilitation</p>
+                    <p className="text-gray-400 text-base font-normal leading-relaxed">Rehabilitation</p>
                     <h2 className="text-indigo-900 text-xl sm:text-4xl font-bold font-manrope text-start">
                         Excellence In Care And Rehabilitation
                     </h2>

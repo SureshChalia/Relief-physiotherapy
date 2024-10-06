@@ -5,7 +5,7 @@ const reviews = [
     {
         id: 1,
         name: "Rajbir Singh",
-        review: "Dr Simran is doing very good practice in exercise physiologist in our city Faridkot. Last month I suffered with back pain and shoulder pain. I visit Relief physiotherapy and rehabilitation clinic. After my treatment I recovered from my all pain satisfactory. I really thankful to Dr Simran and her staff.  Excellent",
+        review: "Dr Simran is doing very good practice in exercise physiologist in our city Faridkot. Last month I suffered with back pain and shoulder pain. I visit Relief physio and rehabilitation clinic. After my treatment I recovered from my all pain satisfactory. I really thankful to Dr Simran and her staff.  Excellent",
         rating: 5,
     },
     {
@@ -17,13 +17,13 @@ const reviews = [
     {
         id: 3,
         name: "Amarjeet Kaur Sra",
-        review: "Wow !!! Great !!! Excellent experience i have with this physiotherapy clinic.I was badly suffered from shoulder muscle tears. But under the therapy of dr Simranjeet I recovered fully and feel relaxed. Simran has a quality  that she  understands the problem very deeply.  She is full of knowledge, professional, confident, cooperative and very kind and humble too. She came like an angle in my life.I recommend this clinic. 👌",
+        review: "Wow !!! Great !!! Excellent experience i have with this exercise physiologist clinic.I was badly suffered from shoulder muscle tears. But under the exercise of dr Simranjeet I recovered fully and feel relaxed. Simran has a quality  that she  understands the problem very deeply.  She is full of knowledge, professional, confident, cooperative and very kind and humble too. She came like an angle in my life.I recommend this clinic. 👌",
         rating: 5,
     },
     {
         id: 4,
         name: "Gurwinder Kaur",
-        review: "Relief physiotherapy and rehabilitation clinic is best clince in our city Faridkot.  It's treatment and therapy are excellent.  Two month ago , I suffered with swear pain in neck. With the treatment by Dr Simran , I fully recovered and cure of my neck. I am fully satisfied with her treatment.",
+        review: "Relief Physio & Rehabilitation Clinic is best clince in our city Faridkot.  It's treatment and exercise are excellent.  Two month ago , I suffered with swear pain in neck. With the treatment by Dr Simran , I fully recovered and cure of my neck. I am fully satisfied with her treatment.",
         rating: 5,
     },
     {
@@ -53,7 +53,7 @@ const reviews = [
     {
         id: 9,
         name: "Devinder Kaur",
-        review: "I hv very good experience of relief from backache  form relief Physiotherapy clinic in fdk.Dr Simranjeet kaur is very experienced hand doctor . So must visit there .",
+        review: "I hv very good experience of relief from backache  form exercise physiologist clinic in fdk.Dr Simranjeet kaur is very experienced hand doctor . So must visit there .",
         rating: 5,
     },
     {
@@ -108,27 +108,24 @@ const ReviewSlider = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             nextReview();
-        }, 3000); // Change review every 5 seconds
+        }, 3000);
 
-        return () => clearInterval(interval); // Cleanup interval on component unmount
+        return () => clearInterval(interval);
     }, [currentIndex]);
 
     return (
         <div className="max-w-7xl w-11/12 mx-auto py-16 px-2">
             <div className="flex flex-col md:flex-row items-start justify-between">
-                {/* Left Section */}
                 <div className="w-full md:w-1/2 text-left">
-                    <h4 className="text-sm text-gray-400">/ Patient Testimonial</h4>
+                    <h4 className="text-sm text-gray-400">Patient Testimonial</h4>
                     <h2 className="text-xl sm:text-4xl font-bold mt-4 text-indigo-900 mb-4">
                         Our Patient Reviews
                     </h2>
-                    <p className='text-gray-400'>At Relief Physiotherapy & Rehabilitation Clinic, we pride ourselves on providing exceptional exercise physiology services that deliver real, measurable results. But don't just take our word for it — our clients' success stories speak for themselves</p>
+                    <p className='text-gray-400'>At Relief Physio & Rehabilitation Clinic, we pride ourselves on providing exceptional exercise physiology services that deliver real, measurable results. But don't just take our word for it — our clients' success stories speak for themselves</p>
                 </div>
 
-                {/* Right Section - Review Card */}
                 <div className="w-full md:w-1/2 mt-8 md:mt-0">
                     <div className="relative bg-white shadow-lg rounded-lg p-6 border border-purple-200">
-                        {/* Reviewer Image */}
                         <div className="flex items-center justify-center md:justify-start">
                             <img
                                 src={`https://api.dicebear.com/5.x/initials/svg?seed=${reviews[currentIndex].name}`}

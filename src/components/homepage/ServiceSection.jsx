@@ -52,7 +52,7 @@ const ServiceSection = () => {
     <div className="container max-w-7xl w-11/12 mx-auto">
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center p-4 gap-5">
         <div className="flex-1 mb-4 lg:mb-0">
-          <p className="text-gray-400 text-base font-normal leading-relaxed">/ Our Services</p>
+          <p className="text-gray-400 text-base font-normal leading-relaxed">Our Services</p>
           <h2 className="text-indigo-900 text-xl sm:text-4xl font-bold font-manrope leading-normal text-start">
             What we offer
           </h2>

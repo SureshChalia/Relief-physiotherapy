@@ -13,7 +13,7 @@ const Gallery = () => {
     return (
         <div className='max-w-7xl w-11/12 mx-auto mb-10'>
             <div className="flex-1 mb-4 lg:mb-0">
-                <p className="text-gray-400 text-base font-normal leading-relaxed">/ Image Gallery</p>
+                <p className="text-gray-400 text-base font-normal leading-relaxed">Image Gallery</p>
                 <h2 className="text-indigo-900 text-xl sm:text-4xl font-bold font-manrope  text-start">
                     Our Latest Insights and updates
                 </h2>

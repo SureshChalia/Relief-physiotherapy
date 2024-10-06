@@ -8,7 +8,7 @@ const QualityTreatmentSection = () => {
             <div className="flex flex-col lg:flex-row items-center justify-between py-10 lg:py-20 px-2 max-w-7xl w-11/12 mx-auto">
                 {/* Text Column */}
                 <div className="lg:w-1/2 w-full mb-10 lg:mb-0">
-                    <p className="text-gray-400 text-lg mb-4">/ Quality Treatment</p>
+                    <p className="text-gray-400 text-lg mb-4">Quality Treatment</p>
                     <h2 className="text-indigo-900 text-xl sm:text-4xl lg:text-5xl font-bold leading-snug mb-6 text-start">
                         We Proudly Give <br /> Quality Treatment
                     </h2>
